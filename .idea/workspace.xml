@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6f1605ac-4248-4dc9-9333-82554ae5fe52" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Sales_App_Demo/templates/layout/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Sales_App_Test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Sales_App_Test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sales_App_Demo/index.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sales_App_Demo/index.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sales_App_Demo/layout/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/Sales_App_Demo/templates/layout/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sales_App_Demo/layout/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sales_App_Demo/layout/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/Sales_App_Demo/templates/layout/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sales_App_Demo/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Sales_App_Demo/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sales_App_Demo/templates/signin.html" beforeDir="false" afterPath="$PROJECT_DIR$/Sales_App_Demo/templates/signin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sales_App_Demo/templates/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/Sales_App_Demo/templates/signup.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0" />
+      <entry key="S10" value="1.0000000032441931" />
+      <entry key="S30" value="1.0037302407027135" />
+      <entry key="S60" value="1.12225568046598" />
+      <entry key="M2" value="1.747492813916549" />
+      <entry key="M5" value="5.420500716622957" />
+      <entry key="M10" value="15.713087771626457" />
+      <entry key="M15" value="28.602880103936773" />
+      <entry key="M30" value="69.98018697019222" />
+      <entry key="H1" value="131.61791020168158" />
+      <entry key="H2" value="191.9632941130242" />
+      <entry key="H4" value="235.78645205956832" />
+      <entry key="D1" value="282.3511961939305" />
+      <entry key="W1" value="291.44868245421065" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="5.51816825753591E-144" />
+      <entry key="S5" value="6.203812575935556E-58" />
+      <entry key="S10" value="3.5398509727247876E-29" />
+      <entry key="S30" value="6.317024600298704E-10" />
+      <entry key="S60" value="4.327508742065871E-5" />
+      <entry key="M2" value="0.011854971917355867" />
+      <entry key="M5" value="0.37474094672688096" />
+      <entry key="M10" value="1.369493060383403" />
+      <entry key="M15" value="2.566658453740122" />
+      <entry key="M30" value="7.314915880634085" />
+      <entry key="H1" value="16.194714175284986" />
+      <entry key="H2" value="26.045245498103352" />
+      <entry key="H4" value="33.65329098614659" />
+      <entry key="D1" value="42.04395726069342" />
+      <entry key="W1" value="43.71425545279377" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.8467453123625271" />
+      <entry key="MS500" value="0.9672763296139321" />
+      <entry key="S2" value="0.9917167307382933" />
+      <entry key="S5" value="0.9966784222188245" />
+      <entry key="S10" value="0.9983378329465464" />
+      <entry key="S30" value="1.0031751029212526" />
+      <entry key="S60" value="1.122006801462797" />
+      <entry key="M2" value="1.7587658326750337" />
+      <entry key="M5" value="5.787945828682326" />
+      <entry key="M10" value="17.067275410411266" />
+      <entry key="M15" value="31.15042033914933" />
+      <entry key="M30" value="77.27155906617409" />
+      <entry key="H1" value="147.7902842028434" />
+      <entry key="H2" value="217.9921466248367" />
+      <entry key="H4" value="269.42964361022547" />
+      <entry key="D1" value="324.39313275584095" />
+      <entry key="W1" value="335.16263981260835" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3LHB9C9JT7WhqGz3yJ7EUX7zcbv" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Flask server.Flask (Sales_App_Demo/index.py).executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true",
+    "to.speed.mode.migration.done": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\1CNPM\Sales_App_Test\Sales_App_Demo\templates" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Flask server.Flask (Sales_App_Demo/index.py)">
+    <configuration name="Sales_App_Test" type="PythonConfigurationType" factoryName="Python">
+      <module name="Sales_App_Test" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sales_App_Demo/index.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Flask (Sales_App_Demo/index.py)" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
+      <module name="Sales_App_Test" />
+      <option name="target" value="$PROJECT_DIR$/Sales_App_Demo/index.py" />
+      <option name="targetType" value="PATH" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Flask server.Flask (Sales_App_Demo/index.py)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-73a66231627c-5bd6d13a2a75-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-262.10968.92" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6f1605ac-4248-4dc9-9333-82554ae5fe52" name="Changes" comment="" />
+      <created>1793100959223</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1793100959223</updated>
+      <workItem from="1793100960315" duration="8521000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Sales_App_Test$Flask__Sales_App_Demo_index_py_.coverage" NAME="Flask (Sales_App_Demo/index.py) Coverage Results" MODIFIED="1793109540999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

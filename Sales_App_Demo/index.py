@@ -1,20 +1,11 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template,request
 
 app = Flask(__name__)
 
 
 @app.route('/')
 def index():
-    categories = [{
-        'id': 1, 'name': 'Mobile'
-    },
-        {
-            'id': 2, 'name': 'Tablet'
-        },
-        {
-            'id': 3, 'name': 'Laptop'
-        }
-    ]
+
 
     products = [{
         "id": 1,
@@ -23,7 +14,7 @@ def index():
         "price": 17000000,
         "image":
             "https://res.cloudinary.com/dxxwcby8l/image/upload/v1647056401/ipmsmnxjydrhpo21xrd8.jpg",
-        "category_id": 1
+                                "category_id": 1
     }, {
         "id": 2,
         "name": "iPad Pro 2020",
@@ -31,7 +22,7 @@ def index():
         "price": 37000000,
         "image":
             "https://res.cloudinary.com/dxxwcby8l/image/upload/v1646729533/zuur9gzztcekmyfenkfr.jpg",
-        "category_id": 2
+                                "category_id": 2
     }, {
         "id": 3,
         "name": "Galaxy Note 10 Plus",
@@ -39,27 +30,57 @@ def index():
         "price": 24000000,
         "image":
             "https://res.cloudinary.com/dxxwcby8l/image/upload/v1647248722/r8sjly3st7estapvj19u.jpg",
-        "category_id": 1
+                                "category_id": 1
+    },{
+        "id": 4,
+        "name": "Galaxy Note 10 Plus",
+        "description": "Samsung, 64GB, RAML: 6GB",
+        "price": 24000000,
+        "image":
+            "https://res.cloudinary.com/dxxwcby8l/image/upload/v1647248722/r8sjly3st7estapvj19u.jpg",
+                                "category_id": 1
+    },{
+        "id": 5,
+        "name": "Galaxy Note 10 Plus",
+        "description": "Samsung, 64GB, RAML: 6GB",
+        "price": 24000000,
+        "image":
+            "https://res.cloudinary.com/dxxwcby8l/image/upload/v1647248722/r8sjly3st7estapvj19u.jpg",
+                                "category_id": 1
     }]
 
     kw = request.args.get('kw')
     if kw:
-        products = [p for p in products if p['name'].find(kw) >=0]
+        products = [p for p in products if p['name'].find(kw) >= 0]
 
     cate_id = request.args.get('category_id')
     if cate_id:
-        products = [c for c in products if c['category_id'] == int(cate_id)]
-
-    return render_template('index.html', categories=categories,products = products)
+        products = [p for p in products if p['category_id'] == int(cate_id)]
+    return render_template("index.html",products = products)
 
 @app.route('/signin')
-def login_view():
-    return render_template('signin.html')
+def signin_view():
+    return render_template("signin.html")
 
 @app.route('/signup')
-def logup_view():
-    return render_template('signup.html')
+def signup_view():
+    return render_template("signup.html")
 
+@app.context_processor
+def common_responses():
+    categories = [{
+        'id': 1,
+        'name': 'Mobile'
+    }, {
+        'id': 2,
+        'name': 'Tablet'
+    }, {
+        'id': 3,
+        'name': 'Laptop'
+    }]
+    return {
+        'categories': categories
+    }
 if __name__ == '__main__':
     with app.app_context():
         app.run(debug=True)
